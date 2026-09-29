@@ -538,7 +538,7 @@ let mapData = {
             northbound: "endOfTrack",
             signals: {
                 southbound: "VEN08", //F
-                northbound: "SP6"
+                northbound: "SP4"
             },
             length: 6
         },
@@ -814,7 +814,7 @@ let mapData = {
             direction: "southbound"
         },
         {
-            name: "SP6",
+            name: "SP4",
             direction: "northbound"
         },
         {
@@ -839,9 +839,7 @@ let mapData = {
         },
     
     ],
-    shuntingPanels: [
-        {}
-    ],
+    shuntingPanels: [],
     platforms: [
         {
             name: "VALLE_V1",
