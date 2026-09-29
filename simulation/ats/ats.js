@@ -98,7 +98,7 @@ supervisionWindow
         this.startTime()
         var user = document.createElement("p")
         user.classList = "user negative3d bold"
-        user.innerText = "LÍNEA 2"
+        user.innerText = "LÍNEA 3"
         var simlogo = document.createElement("img")
         simlogo.src = "/simulation/ats/logo.jpeg"
         simlogo.classList.add("logo")
