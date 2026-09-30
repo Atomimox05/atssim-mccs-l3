@@ -20,7 +20,7 @@ let mapData = {
             northbound: "VAL_05",
             dependsOnPoint: {
                 point: "VAL_A1",
-                normal: "VAL_05",
+                normal: "VAL_01",
                 reverse: "VAL_23"
             },
             length: 3
@@ -238,7 +238,7 @@ let mapData = {
             southbound: "VAL_23",
             northbound: "VAL_27",
             signals: {
-                northbound: "VAL13",//(?)
+                southbound: "VAL13",//(?)
             },
             length: 6
         },
@@ -247,8 +247,8 @@ let mapData = {
             southbound: "VAL_25",
             northbound: "VAL_29",
             signals: {
-                northbound: "VAL15",//(B)
-                southbound: "VAL17",//(F)
+                southbound: "VAL15",//(B)
+                northbound: "VAL17",//(F)
             },
             length: 6
         },
@@ -527,7 +527,7 @@ let mapData = {
             northbound: "VEN_12",
             dependsOnPoint: {
                 point: "VEN_A4",
-                normal: "VEN_12",
+                normal: "VEN_08",
                 reverse: "VEN_09"
             },
             length: 6
@@ -641,7 +641,7 @@ let mapData = {
         },
         {
             name: "VEN_A2",
-            trackCircuit: "VEN_04",
+            trackCircuit: "VEN_06",
         },
         {
             name: "VEN_A4",
@@ -711,31 +711,31 @@ let mapData = {
         },
         {
             name: "VAL09", //E
-            direction: "northbound"
+            direction: "southbound"
         },
         {
             name: "VAL11", //(Y)
-            direction: "southbound"
+            direction: "northbound"
         },
         {
             name: "VAL13", //(?)
-            direction: "northbound"
+            direction: "southbound"
         },
         {
             name: "VAL15", //B
-            direction: "northbound"
+            direction: "southbound"
         },
         {
             name: "VAL17", //F
-            direction: "southbound"
-        },
-        {
-            name: "VAL19", //X
             direction: "northbound"
         },
         {
-            name: "SP3",
+            name: "VAL19", //X
             direction: "southbound"
+        },
+        {
+            name: "SP3",
+            direction: "northbound"
         },
         {
             name: "BAN01", //S1
@@ -865,6 +865,18 @@ let mapData = {
                 position: 1
             },
             terminus: true
+        },
+        {
+            name: "VALLE_V3",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "VAL_27",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "VAL_27",
+                position: 1
+            }
         },
         {
             name: "BANDERA_V1",
