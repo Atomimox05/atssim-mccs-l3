@@ -55,5 +55,16 @@ var interlockingData = {
             }
         }
     ],
-    shuntingRoutes: []
+    shuntingRoutes: [
+        {
+            "entry": {
+                "start": "VEN04",
+                "end": "ZR2"
+            },
+            "exit": {
+                "start": "VEN02",
+                "end": "VEN07"
+            }
+        },
+    ]
 }

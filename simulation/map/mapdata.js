@@ -438,7 +438,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "VEN_A1",
                 normal: "VEN_05",
-                reverse: "VEN_14"
+                reverse: "VEN_13"
             },
             length: 8
         },
@@ -498,6 +498,9 @@ let mapData = {
             signals: {
                 northbound: "VEN02" //C
             },
+            shuntingPanels: {
+                southbound: "ZR2"
+            },
             length: 8
         },
         {
@@ -545,28 +548,19 @@ let mapData = {
         //VIA DE TRANSFERENCIA (Z)
         {
             name: "VEN_13",
-            southbound: "endOfTrack",
-            northbound: "VEN_14",
-            signals: {
-                southbound: "SP7"
-            },
-            length: 1
-        },
-        {
-            name: "VEN_14",
             southbound: "dependsOnPoint",
-            northbound: "VEN_15",
+            northbound: "VEN_14",
             dependsOnPoint: {
                 point: "VEN_A6",
-                normal: "VEN_13",
+                normal: "endOfTrack",
                 reverse: "VEN_03"
             },
             length: 2
         },
         {
-            name: "VEN_15",
-            southbound: "VEN_14",
-            northbound: "VEN_16",
+            name: "VEN_14",
+            southbound: "VEN_13",
+            northbound: "VEN_15",
             signals: {
                 southbound: "VEN10", //N
                 northbound: "VEN11" //P
@@ -574,14 +568,14 @@ let mapData = {
             length: 6
         },
         {
-            name: "VEN_16",
-            southbound: "VEN_15",
-            northbound: "VEN_17",
+            name: "VEN_15",
+            southbound: "VEN_14",
+            northbound: "VEN_16",
             length: 1
         },
         {
-            name: "VEN_17",
-            southbound: "VEN_16",
+            name: "VEN_16",
+            southbound: "VEN_15",
             northbound: "endOfTrack",
             signals: {
                 southbound: "VEN12", //Q
@@ -839,7 +833,12 @@ let mapData = {
         },
     
     ],
-    shuntingPanels: [],
+    shuntingPanels: [
+        {
+            name: "ZR2",
+            direction: "southbound"
+        },
+    ],
     platforms: [
         {
             name: "VALLE_V1",
