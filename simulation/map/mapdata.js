@@ -326,7 +326,7 @@ let mapData = {
             southbound: "SIM_01",
             northbound: "SIM_05",
             signals: {
-                northbound: "SIM01", //S1
+                southbound: "SIM01", //S1
             },
             length: 6
         },
@@ -348,7 +348,7 @@ let mapData = {
             southbound: "SIM_02",
             northbound: "SIM_06",
             signals: {
-                southbound: "SIM02", //S2
+                northbound: "SIM02", //S2
             },
             length: 6
         },
@@ -751,11 +751,11 @@ let mapData = {
         },
         {
             name: "SIM01", //S1
-            direction: "northbound"
+            direction: "southbound"
         },
         {
             name: "SIM02", //S2
-            direction: "southbound"
+            direction: "northbound"
         },
         {
             name: "UCV01", //S1
