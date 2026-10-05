@@ -24,20 +24,20 @@ interlocking.getSignalFromName("VEN02").requestFleeting()
 // Pre-reservar rutas críticas  
 requestReserveForRouteMultipleTrackCircuits("VAL_15", "VAL_13", "southbound")
 requestReserveForRouteMultipleTrackCircuits("BAN_02", "BAN_04", "northbound")  
-requestReserveForRouteMultipleTrackCircuits("VEN_06", "VEN_08", "northbound")  
-// requestReserveForRouteMultipleTrackCircuits("MAM_03", "Y_09", "southbound")
-// requestReserveForRouteMultipleTrackCircuits("ANT_19", "ANT_17", "southbound")
+requestReserveForRouteMultipleTrackCircuits("VEN_06", "VEN_08", "northbound")
 
 interlocking.getCycleFromName("VAL_2").enable();
 interlocking.getCycleFromName("VEN_1").enable()
 
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("VAL_13"), "southbound", interlocking, ats))
-trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("UCV_07"), "southbound", interlocking, ats))
+trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("UCV_01"), "southbound", interlocking, ats))
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("VEN_08"), "northbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("SIM_06"), "northbound", interlocking, ats))
-trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("BAN_04"), "northbound", interlocking, ats))
+trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("VAL_22"), "northbound", interlocking, ats))
 trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("VAL_01"), "southbound", interlocking, ats))
+//trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("VAL_06"), "northbound", interlocking, ats))
+//trains.push(new Train("08", 6, map, track, map.getTrackCircuitFromName("VAL_31"), "southbound", interlocking, ats))
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {
     var startTrackCircuit = interlocking.getTrackCircuitFromName(startTrackCircuitName)

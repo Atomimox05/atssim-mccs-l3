@@ -29,6 +29,32 @@ var interlockingData = {
             }
         },
         {
+            name: "VAL_3",
+            routes: {
+                "entry": {
+                    start: "VAL10",
+                    end: "VAL05"
+                },
+                "exit": {
+                    start: "VAL03",
+                    end: "VAL09"
+                }
+            }
+        },
+        {
+            name: "VAL_4",
+            routes: {
+                "entry": {
+                    start: "VAL10",
+                    end: "VAL14"
+                },
+                "exit": {
+                    start: "VAL12",
+                    end: "VAL09"
+                }
+            }
+        },
+        {
             name: "VEN_1",
             routes: {
                 "entry": {
@@ -64,6 +90,16 @@ var interlockingData = {
             "exit": {
                 "start": "VEN02",
                 "end": "VEN07"
+            }
+        },
+        {
+            "entry": {
+                "start": "VEN05",
+                "end": "ZR2"
+            },
+            "exit": {
+                "start": "VEN02",
+                "end": "VEN06"
             }
         },
     ]

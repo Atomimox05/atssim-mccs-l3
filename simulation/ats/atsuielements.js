@@ -471,29 +471,29 @@ const atsuielements = {
                     <tspan x="15.9863281" y="38">SIGNALLING</tspan>
                 </text>
             </g>
-            <g id="Access_ADJUNTAS" transform="translate(39, 120)">
+            <g id="Access_VALLE" transform="translate(39, 255)">
                 <g id="Rectangle">
                     <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
                     <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
                     <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
                 </g>
-                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="36" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(10, 66)">
+                <g id="StationName" transform="translate(180, 66)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="5" y="21">LAS ADJUNTAS</tspan>
+                        <tspan x="25" y="21">EL VALLE</tspan>
                     </text>
                 </g>
                 <line x1="101" y1="113" x2="151" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
                 <line x1="131" y1="113" x2="181" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
-                <line x1="301" y1="113" x2="351" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
+                <line x1="301" y1="163" x2="351" y2="113" id="Path-2" stroke="#888888" stroke-width="8"></line>
             </g>
-            <g id="Access_ZOOLOGICO" transform="translate(39, 380)">
+            <g id="Access_PLAZAVENEZUELA" transform="translate(839, 255)">
                 <g id="Rectangle">
                     <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-20"></use>
                     <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-21)" xlink:href="#path-hd7e1nc55q-20"></use>
@@ -501,114 +501,18 @@ const atsuielements = {
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(55, 66)">
+                <g id="StationName" transform="translate(185, 66)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-26)" xlink:href="#path-hd7e1nc55q-25"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-27)" xlink:href="#path-hd7e1nc55q-25"></use>
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
-                    <text id="AYACUCHO" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="20" y="21">ZOOLOGICO</tspan>
+                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
+                        <tspan x="5" y="21">P. VENEZUELA</tspan>
                     </text>
                 </g>
-                <line x1="46.5" y1="113" x2="96.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
+                <line x1="306.5" y1="113" x2="349.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
                 <line x1="132.5" y1="113" x2="182.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(157.5, 138) scale(-1, 1) translate(-157.5, -138)"></line>
-            </g>
-            <g id="Access_Y" transform="translate(439, 255)">
-                <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
-                </g>
-                <line x1="7.5" y1="105" x2="80" y2="105" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="175" x2="80" y2="175" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="125" x2="80" y2="125" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="155" x2="80" y2="155" id="Path-30" stroke="#888888" stroke-width="8"></line>
-
-                <line x1="80" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="80" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-
-                <line x1="130" y1="137" x2="180" y2="137" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                 <line x1="210" y1="137" x2="260" y2="137" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(250, 66)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="35" y="21">MAMERA</tspan>
-                    </text>
-                </g>
-            </g>
-            <g id="Access_ANTIMANO" transform="translate(839, 255)">
-                <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
-                </g>
-                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(140, 66)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="25" y="21">ANTIMANO</tspan>
-                    </text>
-                </g>
-                <line x1="101" y1="113" x2="151" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
-                <line x1="131" y1="113" x2="181" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
-            </g>
-            <g id="Access_PAZ" transform="translate(439, 530)">
-                <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
-                </g>
-                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(90, 66)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="35" y="21">LA PAZ</tspan>
-                    </text>
-                </g>
-                <line x1="211" y1="113" x2="261" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
-                <line x1="18.5" y1="113" x2="68.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
-            </g>
-            <g id="Access_SILENCIO" transform="translate(839, 530)">
-                <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
-                </g>
-                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
-                <g id="StationName" transform="translate(200, 66)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
-                        <tspan x="10" y="21">EL SILENCIO</tspan>
-                    </text>
-                </g>
-                <line x1="15" y1="113" x2="65" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
-                <line x1="215" y1="113" x2="265" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
-            
-                <line x1="165" y1="113" x2="215" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
-                <line x1="65" y1="113" x2="115" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
-            
-                <line x1="315" y1="113" x2="365" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
-                <line x1="-85" y1="113" x2="-35" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
             </g>
             <rect id="Rectangle" fill="#000000" x="0" y="0" width="2" height="815"></rect>
             <rect id="Rectangle" fill="#FFFFFF" x="2" y="813" width="1264" height="2"></rect>
